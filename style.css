@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.588) 10%, rgba(0, 0, 0, 0) 50%);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+.head:hover {
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.593);
+}
+header nav a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.container img {
+    margin: 32px;
+    width: 157px;
+    margin-top: 22px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.mainsec {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/first.webp);
+    background-size: cover;
+}
+.container .first {
+    flex-grow: 1;
+    margin-top: 52px;
+    margin-left: -426px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.container .second {
+    margin-top: 52px;
+}
+.container .second i {
+    color: white;
+    font-size: 17px;
+}
+.mainsec h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 500px;
+    color:black;
+}
+.mainsec a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+    font-family: tahoma;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.sec2 {  
+    text-align: end;
+    margin-top: 0;
+    background-image: url("img/CM_BRIONILookBook_210521_06_6291_1.webp");
+    width: 100%;
+    height: 100vh;
+}
+.sec2 h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 500px;
+    color: white;
+}
+.sec2 a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: white;
+    font-family: tahoma;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.sec3 {
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/3rd.webp");
+    width: 100%;
+    height: 100vh;
+}
+.sec3 h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+     font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    padding-top: 500px;
+    color: white;
+    padding-left: 30px;
+}
+.sec3 a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+    font-family: tahoma;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.sec4 {
+    text-align: end;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/4th.webp");
+    width: 100%;
+    height: 100vh;
+}
+.sec4 h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 500px;
+    color: white;
+    padding-right: 30px;
+}
+.sec4 a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: white;
+    font-family: tahoma;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.sec5 {
+    text-align: end;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/5th.webp");
+    width: 100%;
+    height: 100vh;
+}
+.sec5 h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 500px;
+    color: white;
+    padding-right: 30px;
+}
+.sec5 a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: white;
+    font-family: tahoma;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* footer start */
+
+.fcontainer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.887);
+    padding: 20px 20px 20px 40px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: 17%;
+    height: 40vh;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.716);
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-family: tahoma;
+}
+.col5 {
+    width: 20%;
+    text-align: left;
+    flex-grow: 1;
+    padding-left: 80px;
+}
+.col ul {
+    list-style: none;
+}
+.col a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.col i {
+    margin-top: 15px;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.col input {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+    height: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.col5 p {
+    line-height: 15px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.col5 p a {
+    text-decoration: underline;
+}
+.end {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: tahoma;
+    letter-spacing: 1px;
+}
+.end .last {
+    flex-grow: 1;
+    text-align: end;
+}
+.end a {
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
